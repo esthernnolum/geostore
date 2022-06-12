@@ -1,6 +1,6 @@
-
 #!/usr/bin/env bash
 
 echo "deploying application"
-sudo java *.war
+systemctl start wildfly
+systemctl restart nginx
 echo "application deployed"

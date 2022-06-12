@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-sudo killall java
+echo "Stopping application"
+systemctl stop wildfly
 exit 0
